@@ -11,9 +11,16 @@ HTMLPad: https://www.htmlpad.net/
 
 
 #### Function:
-Clone current document into new Tab.
+Allows you to run Gulp tasks directly from within the editor.
+Plugin creates a new docking panel with various options to run Gulp tasks.
 
-Clones the current document into a new Tab. The plugin has 3 options you can change through the standard Plugin options interface.
+[img]https://i.imgur.com/LkKgNs8.png[/img]
+
+Since I couldn't find anyone to help betatest this plugin, the following is missing:
+
+- Documentation. You'll have to figure out how to use the plugin yourself. (Hint: There's several context menus.)
+- Plugin dependency check. Again you'll have to figure out what is required by yourself.
+- Default gulpfile.js - I haven't bothered optimizing this or make different setups.
 
 
 #### Installation:
