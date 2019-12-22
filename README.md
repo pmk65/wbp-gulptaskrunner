@@ -14,7 +14,6 @@ HTMLPad: https://www.htmlpad.net/
 Allows you to run Gulp tasks directly from within the editor.
 Plugin creates a new docking panel with various options to run Gulp tasks.
 
-[img]https://i.imgur.com/LkKgNs8.png[/img]
 
 Since I couldn't find anyone to help betatest this plugin, the following is missing:
 
