@@ -20,7 +20,7 @@
     "gulp-pug": "^3.3.0"
   },
   "dependencies": {
-    "npm": "^5.8.0",
+    "npm": "^6.13.4",
     "npm-check": "^5.6.0"
   }
 }
