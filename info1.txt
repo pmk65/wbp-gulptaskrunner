@@ -1,0 +1,15 @@
+The plugin consists of 3 parts:
+
+1) A WeBuilder plugin
+2) A Websockets bridge, using Script.CreateScriptableJsExecuter
+3) A Nodejs server
+
+The plugin then sends commands to the nodejs server through the websockets interface. Then the nodejs server executes the command line command and streams stdout and stderr back to the plugin.
+
+So you'll need to have Nodejs and the nodejs module "gulp-cli" installed. (The plugin should be checking for the availability of those.)
+
+Im having some problem with the docking code. Specially when disabling/enabling the plugin (usualy through my DevMode plugin)
+I keep getting the "Can't focus on invisible or deleted window" unless I "cheat" and adds a timestamp to the identifier (line 261)
+It would be great if you could spot the thing im doing wrong. (I looked at your scripttree and tried to incorporate the same code)
+
+All the docking code is in the bottom of the plugin.

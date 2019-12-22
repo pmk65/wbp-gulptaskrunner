@@ -1,0 +1,20 @@
+v1.0
+- First version released
+
+v1.01
+- Fixed problem with defaults not being copied due to wrong defaults path.
+- Fixed problem with missing slash in gulpfile path after copying defaults.
+- Fixed problems with paths containing spaces.
+Thanks to Aivars for reporting these.
+- Added updated defaults gulpfile.js and package.json.
+
+v1.02
+- Fixed problems with invalid paths causing plugin crash.
+
+
+1) Make sure "gulp-cli is installed globally. (npm install gulp-cli -g)
+2) Click the "Copy Defaults" if 1st run (Or create your own gulpfile.js), then click "Install Dependencies". "npm install" will appear in the running tasks window.
+3) Once it's finished, "npm install" will disappear again. and the tasklist should be visible.
+4) Select the task you want to run from "Gulp Tasks" and then click the "Execute Task" button.
+
+(You can use sites like http://quenchjs.com/ to create gulpfile.js and package.json files or create them manually.)
